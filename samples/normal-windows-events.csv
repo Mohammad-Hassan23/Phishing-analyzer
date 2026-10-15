@@ -1,0 +1,441 @@
+Level,Date and Time,Source,Event ID,Task Category,User,Computer,Keywords,Message
+Information,14/10/2026 08:00:02,Microsoft-Windows-Security-Auditing,4624,Logon,CORP\jsmith,WS-FIN-014,,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WS-FIN-014$
+	Account Domain:		CORP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+New Logon:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		jsmith
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	Process ID:		0x2f0
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Network Information:
+	Workstation Name:	WS-FIN-014
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Key Length:		0"
+Information,14/10/2026 08:00:05,Microsoft-Windows-Security-Auditing,4688,Process Creation,CORP\jsmith,WS-FIN-014,,"A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		jsmith
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	New Process ID:		0x1f4
+	New Process Name:	C:\Windows\explorer.exe
+	Creator Process ID:	0x2f0
+	Creator Process Name:	C:\Windows\System32\userinit.exe
+	Process Command Line:	""C:\Windows\explorer.exe""
+
+Token Elevation Type:		%%1936"
+Information,14/10/2026 08:00:19,Microsoft-Windows-Security-Auditing,4688,Process Creation,CORP\jsmith,WS-FIN-014,,"A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		jsmith
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	New Process ID:		0x1f4
+	New Process Name:	C:\Program Files\Microsoft Office\root\Office16\OUTLOOK.EXE
+	Creator Process ID:	0x2f0
+	Creator Process Name:	C:\Windows\explorer.exe
+	Process Command Line:	""C:\Program Files\Microsoft Office\root\Office16\OUTLOOK.EXE""
+
+Token Elevation Type:		%%1936"
+Information,14/10/2026 08:02:41,Microsoft-Windows-Security-Auditing,4624,Logon,CORP\apatel,WS-HR-007,,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WS-HR-007$
+	Account Domain:		CORP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+New Logon:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		apatel
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	Process ID:		0x2f0
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Network Information:
+	Workstation Name:	WS-HR-007
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Key Length:		0"
+Information,14/10/2026 08:02:44,Microsoft-Windows-Security-Auditing,4688,Process Creation,CORP\apatel,WS-HR-007,,"A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		apatel
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	New Process ID:		0x1f4
+	New Process Name:	C:\Program Files\Google\Chrome\Application\chrome.exe
+	Creator Process ID:	0x2f0
+	Creator Process Name:	C:\Windows\explorer.exe
+	Process Command Line:	""C:\Program Files\Google\Chrome\Application\chrome.exe""
+
+Token Elevation Type:		%%1936"
+Information,14/10/2026 08:05:10,Microsoft-Windows-Security-Auditing,4624,Logon,NT AUTHORITY\SYSTEM,SRV-FILE-01,,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SRV-FILE-01$
+	Account Domain:		CORP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+New Logon:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		SRV-FILE-01$
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	Process ID:		0x2f0
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	SRV-FILE-01
+	Source Network Address:	::1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Key Length:		0"
+Information,14/10/2026 08:05:12,Microsoft-Windows-Security-Auditing,4624,Logon,NT AUTHORITY\SYSTEM,SRV-FILE-01,,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WS-HR-007$
+	Account Domain:		CORP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+New Logon:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		SRV-FILE-01$
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	Process ID:		0x2f0
+	Process Name:		C:\Windows\System32\lsass.exe
+
+Network Information:
+	Workstation Name:	WS-HR-007
+	Source Network Address:	10.20.0.31
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Key Length:		0"
+Information,14/10/2026 08:12:33,Microsoft-Windows-Security-Auditing,4634,Logoff,CORP\jsmith,WS-FIN-014,,"An account was logged off.
+
+Subject:
+	Account Name:		jsmith
+	Account Domain:		CORP
+
+Logon Type:			2"
+Information,14/10/2026 08:31:07,Microsoft-Windows-Security-Auditing,4624,Logon,CORP\jsmith,WS-FIN-014,,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WS-FIN-014$
+	Account Domain:		CORP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+New Logon:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		jsmith
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	Process ID:		0x2f0
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Network Information:
+	Workstation Name:	WS-FIN-014
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Key Length:		0"
+Information,14/10/2026 08:31:40,Microsoft-Windows-Security-Auditing,4625,Logon,CORP\jsmith,WS-FIN-014,,"An account failed to log on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			2
+
+Account For Which Logon Failed:
+	Security ID:		S-1-0-0
+	Account Name:		jsmith
+	Account Domain:		CORP
+
+Failure Information:
+	Failure Reason:		Unknown user name or bad password.
+	Status:			0xC000006D
+	Sub Status:		0xC000006A
+
+Process Information:
+	Caller Process ID:	0x0
+	Caller Process Name:	-
+
+Network Information:
+	Workstation Name:	WS-FIN-014
+	Source Network Address:	127.0.0.1
+	Source Port:		49813
+
+Detailed Authentication Information:
+	Logon Process:		NtLmSsp 
+	Authentication Package:	NTLM
+	Key Length:		0"
+Information,14/10/2026 08:31:52,Microsoft-Windows-Security-Auditing,4624,Logon,CORP\jsmith,WS-FIN-014,,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WS-FIN-014$
+	Account Domain:		CORP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+New Logon:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		jsmith
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	Process ID:		0x2f0
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Network Information:
+	Workstation Name:	WS-FIN-014
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Key Length:		0"
+Information,14/10/2026 09:04:15,Microsoft-Windows-Security-Auditing,4688,Process Creation,CORP\jsmith,WS-FIN-014,,"A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		jsmith
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	New Process ID:		0x1f4
+	New Process Name:	C:\Program Files\Microsoft 365\WINWORD.EXE
+	Creator Process ID:	0x2f0
+	Creator Process Name:	C:\Windows\explorer.exe
+	Process Command Line:	""C:\Program Files\Microsoft 365\WINWORD.EXE"" ""\\SRV-FILE-01\Share\Q4-plan.docx""
+
+Token Elevation Type:		%%1936"
+Information,14/10/2026 09:22:58,Microsoft-Windows-Security-Auditing,4688,Process Creation,CORP\apatel,WS-HR-007,,"A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		apatel
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	New Process ID:		0x1f4
+	New Process Name:	C:\Windows\System32\notepad.exe
+	Creator Process ID:	0x2f0
+	Creator Process Name:	C:\Windows\explorer.exe
+	Process Command Line:	""C:\Windows\System32\notepad.exe""
+
+Token Elevation Type:		%%1936"
+Information,14/10/2026 10:15:02,Microsoft-Windows-Security-Auditing,4624,Logon,CORP\rjones,SRV-FILE-01,,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WS-IT-002$
+	Account Domain:		CORP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+New Logon:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		rjones
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	Process ID:		0x2f0
+	Process Name:		C:\Windows\System32\lsass.exe
+
+Network Information:
+	Workstation Name:	WS-IT-002
+	Source Network Address:	10.20.0.44
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Key Length:		0"
+Information,14/10/2026 11:47:31,Microsoft-Windows-Security-Auditing,4624,Logon,CORP\jsmith,WS-FIN-014,,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WS-FIN-014$
+	Account Domain:		CORP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+New Logon:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		jsmith
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	Process ID:		0x2f0
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Network Information:
+	Workstation Name:	WS-FIN-014
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Key Length:		0"
+Information,14/10/2026 13:02:09,Microsoft-Windows-Security-Auditing,4688,Process Creation,CORP\jsmith,WS-FIN-014,,"A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		jsmith
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	New Process ID:		0x1f4
+	New Process Name:	C:\Windows\System32\mspaint.exe
+	Creator Process ID:	0x2f0
+	Creator Process Name:	C:\Windows\explorer.exe
+	Process Command Line:	""C:\Windows\System32\mspaint.exe""
+
+Token Elevation Type:		%%1936"
+Information,14/10/2026 15:30:44,Microsoft-Windows-Security-Auditing,4634,Logoff,CORP\apatel,WS-HR-007,,"An account was logged off.
+
+Subject:
+	Account Name:		apatel
+	Account Domain:		CORP
+
+Logon Type:			2"
+Information,14/10/2026 16:05:00,Microsoft-Windows-Security-Auditing,4624,Logon,NT AUTHORITY\SYSTEM,SRV-FILE-01,,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SRV-FILE-01$
+	Account Domain:		CORP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+New Logon:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		SRV-FILE-01$
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	Process ID:		0x2f0
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	SRV-FILE-01
+	Source Network Address:	::1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Key Length:		0"

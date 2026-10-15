@@ -1,0 +1,174 @@
+Level,Date and Time,Source,Event ID,Task Category,User,Computer,Keywords,Message
+Information,14/10/2026 09:00:05,Microsoft-Windows-Security-Auditing,4624,Logon,CORP\Administrator,SRV-FILE-01,,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WS-IT-002$
+	Account Domain:		CORP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+New Logon:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		Administrator
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	Process ID:		0x2f0
+	Process Name:		C:\Windows\System32\lsass.exe
+
+Network Information:
+	Workstation Name:	WS-IT-002
+	Source Network Address:	10.20.0.10
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Key Length:		0"
+Information,14/10/2026 09:03:11,Microsoft-Windows-Security-Auditing,4720,User Account Management,CORP\Administrator,SRV-FILE-01,,"A user account was created.
+
+Subject:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-500
+	Account Name:		Administrator
+	Account Domain:		CORP
+	Logon ID:		0x3E7
+
+New Account:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1188
+	Account Name:		svc_backup2
+	Account Domain:		CORP
+
+Attributes:
+	SAM Account Name:	svc_backup2
+	Display Name:		svc_backup2
+	User Principal Name:	svc_backup2@corp.example
+	Primary Group ID:	513
+	Password Last Set:	14/10/2026 09:20:11
+
+Additional Information:
+	Privileges:		-"
+Information,14/10/2026 09:03:29,Microsoft-Windows-Security-Auditing,4732,Security Group Management,CORP\Administrator,SRV-FILE-01,,"A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-500
+	Account Name:		Administrator
+	Account Domain:		CORP
+	Logon ID:		0x3E7
+
+Member:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1188
+	Account Name:		svc_backup2
+	Account Domain:		CORP
+
+Group:
+	Security ID:		S-1-5-32-544
+	Group Name:		Administrators
+	Group Domain:		BUILTIN
+
+Additional Information:
+	Privileges:		-"
+Information,14/10/2026 09:05:02,Microsoft-Windows-Security-Auditing,4688,Process Creation,CORP\Administrator,SRV-FILE-01,,"A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		Administrator
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	New Process ID:		0x1f4
+	New Process Name:	C:\Windows\System32\cmd.exe
+	Creator Process ID:	0x2f0
+	Creator Process Name:	C:\Windows\explorer.exe
+	Process Command Line:	""C:\Windows\System32\cmd.exe"" /c whoami
+
+Token Elevation Type:		%%1936"
+Information,14/10/2026 09:40:18,Microsoft-Windows-Security-Auditing,4624,Logon,CORP\apatel,WS-HR-007,,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WS-HR-007$
+	Account Domain:		CORP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+New Logon:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		apatel
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	Process ID:		0x2f0
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Network Information:
+	Workstation Name:	WS-HR-007
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Key Length:		0"
+Information,14/10/2026 10:12:00,Microsoft-Windows-Security-Auditing,4624,Logon,CORP\jsmith,WS-FIN-014,,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WS-FIN-014$
+	Account Domain:		CORP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+New Logon:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		jsmith
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	Process ID:		0x2f0
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Network Information:
+	Workstation Name:	WS-FIN-014
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Key Length:		0"
+Information,14/10/2026 11:20:41,Microsoft-Windows-Security-Auditing,4688,Process Creation,CORP\jsmith,WS-FIN-014,,"A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-21-1004336348-1177238915-682003330-1105
+	Account Name:		jsmith
+	Account Domain:		CORP
+	Logon ID:		0x1A2B3C4D
+
+Process Information:
+	New Process ID:		0x1f4
+	New Process Name:	C:\Windows\System32\calc.exe
+	Creator Process ID:	0x2f0
+	Creator Process Name:	C:\Windows\explorer.exe
+	Process Command Line:	""C:\Windows\System32\calc.exe""
+
+Token Elevation Type:		%%1936"
